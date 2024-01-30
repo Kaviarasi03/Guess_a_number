@@ -1,0 +1,73 @@
+*{
+    padding:0;
+
+}
+body{
+    height:100%;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10vh;
+    background: url(./bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(to right,rgb(70, 145, 225),rgb(95, 237, 223)); */
+}
+h1{
+    padding:3rem;
+    color:rgb(232, 92, 28);
+}
+.game{
+    padding:3rem;
+    backdrop-filter: blur(5px);
+    /* opacity:.5; */
+    border-radius: 20px;
+    border:1px solid rgb(250, 249, 249);
+    box-shadow:0px 0px 10px 2px  #e4e4e4b4 ;
+    /* border: 5px linear-gradient(to right,rgb(238, 113, 113),rgb(223, 157, 88)); */
+}
+h2{
+    color:rgb(236, 37, 37);
+    margin-bottom: 2rem;
+    opacity:.7;
+}
+input{
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: large;
+    width:50%;
+    color:rgb(134, 42, 234);
+    border-bottom: 1px solid rgb(243, 119, 113);
+}
+button{
+    background: transparent;
+    border-radius: 40%;
+    border:none;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    margin:1rem;
+    padding:.5rem;
+    cursor:pointer;
+    color:#f18080;
+    box-shadow: 0px 0px 10px 2px rgb(rgb(126, 120, 120));
+}
+p{
+    color: rgba(240, 90, 44);
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background: url(./bg1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding:1rem;
+    }
+    h1{
+        padding:1rem;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+}
